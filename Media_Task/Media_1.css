@@ -1,0 +1,219 @@
+@media(max-width:768px) {
+    .container-one {
+        padding: 1rem;
+    }
+    nav {
+    flex-direction: column;
+      padding: 0;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    nav .nav-wrap-one {
+        flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      width: 100%;
+    }
+    nav .joinus {
+        padding: 0.5rem 1.5rem;
+        margin-right: 0;
+    }
+    .link {
+        font-size: 0.675rem;
+        line-height: normal;
+    }
+    .school-solved {
+        position: absolute;
+        height: 14px;
+        width: 20px;
+        background-image: url("Images/burger-menu.svg");
+        background-size: cover;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+    .school-solved.open {
+        height: 16px;
+      width: 16px;
+      background-image: url("Images/close-icon.jpg");
+    }
+    nav .nav-wrap-one .brandname {
+        margin-right: 0;
+    }
+    nav .nav-wrap-one ul {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav .nav-wrap-one ul.open {
+        display: flex;
+    }
+    nav div:last-child {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    nav div:last-child.open {
+        display: flex;
+    }
+    .curved-rect1 {
+        display: none;
+    }
+    .curved-rect2  {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    #hero-one .container-one {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #hero-one .container-one .hero-img {
+        position: static;
+        width: 100%;
+    }
+    .hero-info-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        margin-top: 1rem;
+    }
+    .hero-info-one h1 {
+        font-size: 1.625rem;
+        line-height: normal;
+    }
+    h2 {
+        font-size: 1.2rem;
+        line-height: normal;
+    }
+    h3 {
+        font-size: 1.1rem;
+        line-height: normal;
+    }
+    h4 {
+        font-size: 1rem;
+        line-height: normal;
+    }
+    h5 {
+        font-size: 0.9rem;
+        line-height: normal;
+    }
+    h6 {
+        font-size: 0.875rem;
+        line-height: normal;
+    }
+    p {
+        line-height: normal;
+    }
+    .hero-info-one .cta-btn-one {
+        justify-content: center;
+        gap: 15px;
+    }
+    .hero-info-one .cta-btn-one button  {
+        padding: 0.5rem 1.5rem;
+    }
+    #hero-one .feature-one {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        margin-top: 1rem;
+    }
+    #package-one,
+    #package-two {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 15px;
+        padding: 1rem;
+    }
+    #package-one {
+        margin-top: 1rem;
+    }
+    #package-one .package-para-info,
+    #package-two .package-para-info p {
+        width: 100%;
+    }
+    .package-para-info {
+        gap: 15px;
+    }
+    .package-para-info .line-one {
+        display: none;
+    }
+    #package-two .package-para-info {
+        order: 2;
+      }
+      #package-two .video-one {
+        width: 100%;
+        height: auto;
+        padding: 5rem;
+        order: 1;
+      }
+      #course {
+        padding: 1rem;
+        gap: 15px;
+      }
+      section .info p {
+        width: 100%;
+      }
+      .product-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+      }
+      #testimonial {
+        padding: 1rem;
+        gap: 15px;
+      }
+      #testimonial .testimonial-list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+      }
+    
+      .testimonial-item .card-content p,
+      .newsletter-content .news-letter-info p {
+        width: 100%;
+      }
+      .newsletter-content {
+        padding: 1rem;
+        gap: 15px;
+      }
+    
+      .newsletter-content form {
+        height: auto;
+      }
+    
+      .newsletter-content form input {
+        letter-spacing: 0.2px;
+        padding: 1rem;
+        padding-right: 100px;
+      }
+      .newsletter-content form button {
+        color: white;
+        width: 90px;
+      }
+    
+      footer .footer-list {
+        padding: 1rem;
+        flex-direction: column;
+        gap: 10px;
+      }
+      footer .footer-list .footer-item {
+        gap: 10px;
+      }
+      footer .footer-list .footer-item .links {
+        gap: 10px;
+      }
+      footer .footer-list .footer-item .links a,
+      footer h6 {
+        font-size: 0.675rem;
+        line-height: normal;
+      }
+    
+      footer > div:last-child .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+      }
+    }
